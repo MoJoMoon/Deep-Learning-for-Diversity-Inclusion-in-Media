@@ -38,11 +38,11 @@ To demonstrate how GANs are capable of generating image data that is not only de
 
 ### LinkedIn Dataset
 
-<img src='images\notebook_images\linkedin_dataset.png' align="center">
+<img src='imgs\notebook_images\linkedin_dataset.png' align="center">
 
 ### Image Analysis
 
-<img src='images\notebook_images\face_pixels.png' align="center">
+<img src='imgs\notebook_images\face_pixels.png' align="center">
 
 
 ## 2. Generating Faces with a DCGAN
@@ -51,38 +51,38 @@ To demonstrate how GANs are capable of generating image data that is not only de
  
  ### Generative Adversarial Network Architecture
  
- <img src='images\notebook_images\gan_archi_2.png' align="center">
+ <img src='imgs\notebook_images\gan_archi_2.png' align="center">
  
  
  #### Discriminator
  
  The discriminator referred to as  𝐷  is responsible for the adversarial nature of the GAN. The discriminator is a classifier which in most cases outputs a probability that a particular data instance it receives is either from the training data, or from the generator. For the purposes of this project, the real images will be that of faces scraped from LinkedIn. For the discriminator, these are considered the positive class while it is training. The negative class while training is therefore those images that have been created by the generator. 
  
-  <img src='images\notebook_images\discriminator.png' align="center">
+  <img src='imgs\notebook_images\discriminator.png' align="center">
  
  #### Generator
  
  The generator known as  𝐺  is therefore responsible for the generative component of the GAN. The generator is able to create data which is meant to replicate the training data, and creates said data from a random input known as the Latent Noise Vector. This random noise referred to as  𝑧  is then transformed into an output that is similar to the training data by receiving feedback from the Discriminator. 
  
- <img src='images\notebook_images\generator.png' align="center">
+ <img src='imgs\notebook_images\generator.png' align="center">
  
 ### DCGAN Results
 
 #### First Generated Image
 
-<img src='images\notebook_images\first_generated_face.png' align="center">
+<img src='imgs\notebook_images\first_generated_face.png' align="center">
 
 #### DCGAN 50 Epochs
 
-<img src='images\notebook_images\faces_dcgan_50e.gif' align="center">
+<img src='imgs\notebook_images\faces_dcgan_50e.gif' align="center">
 
 #### DCGAN 200 Epochs
 
-<img src='images\notebook_images\faces_dcgan_200e.gif' align="center">
+<img src='imgs\notebook_images\faces_dcgan_200e.gif' align="center">
 
 #### DCGAN 500 Epochs
 
-<img src='images\notebook_images\faces_dcgan_500e.gif' align="center">
+<img src='imgs\notebook_images\faces_dcgan_500e.gif' align="center">
 
 
 
@@ -116,11 +116,11 @@ FFHQ is a relatively large dataset with around 70,000 1024x1024 resolution png i
 
 #### High Resolution Image
 
-<img src='images\notebook_images\man1.png' align="center">
+<img src='imgs\notebook_images\man1.png' align="center">
 
 #### Interpolation
 
-<img src='images\notebook_images\morph_gif.gif' align="center">
+<img src='imgs\notebook_images\morph_gif.gif' align="center">
 
 
 ## 4. Animating Faces with First Order Motion Model
@@ -143,9 +143,9 @@ As in the case of the StyleGAN2 instance, we will use a pretrained First Order M
 
 ### First Order Motion Model Results
 
-<img src='images\notebook_images\fomm_1.gif' align="center">
+<img src='imgs\notebook_images\fomm_1.gif' align="center">
 
-<img src='images\notebook_images\fomm_2.gif' align="center">
+<img src='imgs\notebook_images\fomm_2.gif' align="center">
 
 
 ## 5. Hypothesis Testing
@@ -187,11 +187,11 @@ The process for collecting data was done in two parts:
 
 #### Survey
 
-<img src='images\notebook_images\You Choose_html.png' align="center">
+<img src='imgs\notebook_images\You Choose_html.png' align="center">
 
 ### Exploratory Data Analysis
 
-<img src='images\notebook_images\sunburst.png' align="center">
+<img src='imgs\notebook_images\sunburst.png' align="center">
 
 ### Sentiment Analysis
 
@@ -205,17 +205,17 @@ Specifically, the subject of the sentiment analysis will be on the effects that 
 
 The opinion holder in this instance will be the 58 individuals that answered **"How do you think this system could change general perceptions of stereotypes?".**
 
-<img src='images\notebook_images\semantic_1.png' align="center">
+<img src='imgs\notebook_images\semantic_1.png' align="center">
 
 #### Sentiment Analysis Results
 
-<img src='images\notebook_images\sentiment_results.png' align="center">
+<img src='imgs\notebook_images\sentiment_results.png' align="center">
 
 ### WordCloud Visualization
 
 Here we see that some of the most common words in our response are "people", 'to "see", "diversity", "AI", "media", and "think". Looking at these words alone yields the idea that the general opinion is that **AI can help people think and see diversity in media**, which is the sole purpose of this work. 
 
-<img src='images\response_data\responses_wordcloud.png' align="center">
+<img src='imgs\response_data\responses_wordcloud.png' align="center">
 
 ### Experiment Results
 
@@ -233,7 +233,7 @@ With 68 responses to the question, we would expect that:
 
 ##### Observed Results
 
-<img src='images\notebook_images\results.png' align="center">
+<img src='imgs\notebook_images\results.png' align="center">
 
 #### P-Value
 
@@ -243,7 +243,7 @@ $p-value=0.012864308543025699$
 
 When compared with the significance threshold that we set we can see the comparison.
 
-<img src='images\notebook_images\p_value.png' align="center">
+<img src='imgs\notebook_images\p_value.png' align="center">
 
 ## Conclusions
 
