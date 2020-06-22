@@ -211,6 +211,8 @@ The opinion holder in this instance will be the 58 individuals that answered **"
 
 #### Sentiment Analysis Results
 
+Over 65% of the respondents had a positive view about the effects that the G/A system could have on the perception of stereotypes. These are great results for those that wish to make a positive impact on sterotypes, in the Netflix executive board. This is nearly a 2/3rds positive response to the system.
+
 <img src='imgs\notebook_images\sentiment_results.png' align="center">
 
 ### WordCloud Visualization
