@@ -215,7 +215,7 @@ The opinion holder in this instance will be the 58 individuals that answered **"
 
 Here we see that some of the most common words in our response are "people", 'to "see", "diversity", "AI", "media", and "think". Looking at these words alone yields the idea that the general opinion is that **AI can help people think and see diversity in media**, which is the sole purpose of this work. 
 
-<img src='imgs\response_data\responses_wordcloud.png' align="center">
+<img src='response_data\responses_wordcloud.png' align="center">
 
 ### Experiment Results
 
