@@ -38,7 +38,7 @@ To demonstrate how GANs are capable of generating image data that is not only de
 
 ### LinkedIn Dataset
 
-<img src='imgs\notebook_images\linkedin_dataset.png' align="center">
+<img src='imgs\notebook_images\linkedin_dataset_1.png' align="center">
 
 ### Image Analysis
 
