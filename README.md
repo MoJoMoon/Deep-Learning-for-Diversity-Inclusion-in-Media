@@ -1,6 +1,6 @@
 # Deep Learning for Diversity Inclusion in Media
 
-<img src='imgs\notebook_images\title.gif' align="center">
+<img src='imgs\notebook_images\title.png' align="center">
 
 ## Introduction
 
