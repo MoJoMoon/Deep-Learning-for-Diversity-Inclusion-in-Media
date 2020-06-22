@@ -152,7 +152,7 @@ As in the case of the StyleGAN2 instance, we will use a pretrained First Order M
 
 ## 5. Hypothesis Testing
 
-In bringing the work from the past notebooks to a conclusion here, we discuss the experience and impact of use of the Generate/Animate system for Netflix in our hypothetical business case. **There is great importance in understanding the public sentiment in regard to the G/A system affecting perceptions of diversity includion in media, and to this goal we conduct hypothesis testing in this final notebook.**
+In bringing the work from the past notebooks to a conclusion here, we discuss the experience and impact of use of the Generate/Animate system for Netflix in our hypothetical business case. **There is great importance in understanding the public sentiment in regard to the G/A system affecting perceptions of diversity inclusion in media, and to this goal we conduct hypothesis testing in this final notebook.**
 
 Within this notebook we visited several concepts:
 
