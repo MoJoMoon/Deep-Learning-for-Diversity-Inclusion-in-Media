@@ -12,6 +12,8 @@ This work is meant to fulfill educational purposes. The hypothetical business ca
 
 This project is intended to showcase the transformative power that GANs present to the current platforms available for viewing images and video content. The work is sectioned into 5 Jupyter Notebooks, each focusing on a seperate stage of the project, these are as follows:
 
+<img src='imgs\notebook_images\process_overview.png' align="center">
+
 1. **Mining & Cleaning LinkedIn Data**: Code associated with scraping LinkedIn for image data related to a person's social media to be fed into a GAN for face generation.
 2. **Generating Faces with a DCGAN**: Using a Deep Convolutional Generative Adversarial Network to generate faces based on the scraped image data from LinkedIn.
 3. **Generating High-Rez Faces with StyleGAN2**: Create a pre-trained instance of StyleGAN2 to generate high resolution 1024x1024 images of faces.
