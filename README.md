@@ -197,6 +197,8 @@ The process for collecting data was done in two parts:
 
 <img src='imgs\notebook_images\sunburst.png' align="center">
 
+<img src='imgs\notebook_images\response.png' align="center">
+
 ### Sentiment Analysis
 
 Sentiment Analysis, sometimes referred to as Opinion Mining is the process of understanding the opinion or emotion of an author associated with a particular subject. We will use the answers from the "How do you think this system could change general perceptions of stereotypes?" question to analyze the general sentiment towards the Generate/Animate system of the sample of respondents that answered the question. Here an opinion will be categorized into one of three categories:
