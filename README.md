@@ -53,20 +53,20 @@ To demonstrate how GANs are capable of generating image data that is not only de
  
  ### Generative Adversarial Network Architecture
  
- <img src='imgs\notebook_images\gan_archi_2.png' align="center">
+ <img src='imgs\notebook_images\gan_archi_2.png' width="900" align="center">
  
  
  #### Discriminator
  
  The discriminator referred to as  𝐷  is responsible for the adversarial nature of the GAN. The discriminator is a classifier which in most cases outputs a probability that a particular data instance it receives is either from the training data, or from the generator. For the purposes of this project, the real images will be that of faces scraped from LinkedIn. For the discriminator, these are considered the positive class while it is training. The negative class while training is therefore those images that have been created by the generator. 
  
-  <img src='imgs\notebook_images\discriminator.png' align="center">
+  <img src='imgs\notebook_images\discriminator.png' width="900" align="center">
  
  #### Generator
  
  The generator known as  𝐺  is therefore responsible for the generative component of the GAN. The generator is able to create data which is meant to replicate the training data, and creates said data from a random input known as the Latent Noise Vector. This random noise referred to as  𝑧  is then transformed into an output that is similar to the training data by receiving feedback from the Discriminator. 
  
- <img src='imgs\notebook_images\generator.png' align="center">
+ <img src='imgs\notebook_images\generator.png' width="900" align="center">
  
 ### DCGAN Results
 
