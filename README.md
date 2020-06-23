@@ -60,7 +60,7 @@ To demonstrate how GANs are capable of generating image data that is not only de
  
  The discriminator referred to as  𝐷  is responsible for the adversarial nature of the GAN. The discriminator is a classifier which in most cases outputs a probability that a particular data instance it receives is either from the training data, or from the generator. For the purposes of this project, the real images will be that of faces scraped from LinkedIn. For the discriminator, these are considered the positive class while it is training. The negative class while training is therefore those images that have been created by the generator. 
  
-  <img src='imgs\notebook_images\disc_2.png' width="900" align="center">
+  <img src='imgs\notebook_images\disc_2.PNG' width="900" align="center">
  
  #### Generator
  
