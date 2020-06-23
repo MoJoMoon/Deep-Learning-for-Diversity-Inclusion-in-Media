@@ -193,6 +193,8 @@ The process for collecting data was done in two parts:
 
 ### Exploratory Data Analysis
 
+<img src='imgs\notebook_images\presentation_capstone.png' align="center">
+
 <img src='imgs\notebook_images\sunburst.png' align="center">
 
 ### Sentiment Analysis
