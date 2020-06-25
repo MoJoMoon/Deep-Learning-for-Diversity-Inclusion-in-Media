@@ -38,6 +38,12 @@ To demonstrate how GANs are capable of generating image data that is not only de
 - Resized these face images that will be fed into our GAN in the next notebook. 
 - Visualized the entire dataset retrieved from LinkedIn and explored the pixel intensity values of a sample of images from the dataset.
 
+### Extracting Faces from Scraped Data
+
+We will use OpenCV2's built in object detection method to locate the faces in our image data, and then isolate these faces, so that we can produce a dataset of only face data. This classifier is generated from 3 databases, the AT&T Facedatabase, Yale Facedatabase A, and the Extended Yale Facedatabase B. Combined these datasets contain roughly 2500 images of 100 unique individuals.  The classifier is called in as a `faceCascade` object that loads in the Haar Cascade file using the `cv2.CascadeClassifier()` coupled with `haarcascade_frontalface_default.xml` to specify the face detection method. Haar Cascade is an ml object detection algorithm used to identify objects in an image or video. It is an algorithm that focuses on detecting the Edge, Line, and Four-rectangle features within an image.
+
+<img src='imgs\notebook_images\face_detection_2.png' align="center">
+
 ### LinkedIn Dataset
 
 <img src='imgs\notebook_images\linkedin_dataset_1.png' align="center">
